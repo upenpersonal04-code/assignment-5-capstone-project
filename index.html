@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Michroma&family=Pacifico&display=swap" rel="stylesheet"> -->
+    <style>
+        .dest{
+            border: 1px solid black;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            display: grid;
+            grid-template-columns: 200px 200px 200px ;
+            grid-template-columns: repeat(4,1fr);
+            column-gap: 30px;
+            
+        }
+        .dest>div{
+            padding: 100px;
+        }
+        #edinburgh,#japan,#alaska,#newyork{
+             border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+             background-color: rgb(233, 233, 236);
+            box-shadow: 10px 5px 40px rgb(19, 10, 88);
+             /* text-align: center; */
+        }
+        #alaska:hover{
+            animation: animate 3s linear infinite ;
+        }
+        #edinburgh{
+            background-image: url(edinburg.avif);
+            background-size: contain;
+        }
+        #edinburgh:hover{
+            animation: forwards;
+        }
+        #japan{
+            background-image: url(japan.jpg);
+            background-size: contain;
+        }
+        #alaska{
+            background-image: url(alaska.jpeg);
+            background-size: contain;
+        }
+        #newyork{
+            background-image: url(nnew\ york.jpg);
+            background-size: contain;
+        }
+        .tour{
+             border: 1px solid black;
+            border-radius: 20px;
+            display: grid;
+            grid-template-columns: 200px 200px 200px ;
+            grid-template-columns: repeat(3,1fr);
+            column-gap: 50px;
+            
+        }
+        .tour>div{
+            padding: 50px;
+        }
+        #esp,#dis,#adve{
+            border-radius: 20px;
+             background-color: rgb(233, 233, 236);
+            box-shadow: 10px 5px 40px rgb(19, 10, 88);
+
+        }
+        #esp{
+            background-image: url(aurora.jpg);
+            background-size: 400px;
+        }
+        #dis{
+            background-image: url(edin.jpg);
+            background-size: 400px;
+        }
+        #adve{
+            background-image: url(mount\ fuji.avif);
+            background-size: 400px;
+        }
+        .blank{
+            border: 1px solid black;
+            border-bottom-left-radius:10px ;
+            border-bottom-right-radius: 10px;
+            display: grid;
+            grid-template-columns: 200px 200px 200px ;
+            grid-template-columns: repeat(4,1fr);
+            column-gap: 30px;
+             
+        }
+        .blank>div{
+            padding: 30px;
+        }
+        #one1,#two2,#three3,#four4{
+             background-color: rgb(233, 233, 236);
+            box-shadow: 10px 5px 30px rgb(18, 3, 132);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+    <div class="h2"><h2> Wanderlust </h2></div>
+    <div class="header"><header>Destinations &nbsp;&nbsp;&nbsp;&nbsp;Packages&nbsp;&nbsp;&nbsp;&nbsp;How it works&nbsp;&nbsp;&nbsp;&nbsp;Blogs&nbsp;&nbsp;&nbsp;&nbsp;Contacts</header></div>
+</div> 
+ <div class="intro">
+    <div id="introbox">
+        <h1>Explore The World With</h1>
+        <h1>Wanderlust</h1>
+        <b><p>Your adventure starts here, discover breathtaking 
+            destination ,curated tour and unforgetable experience .</b>
+        </p>
+        <button type="submit" style="color: white;">Start Your Journey Here
+            BOOK NOW </button>
+    </div>
+    <br>
+    <br>
+</div> 
+<br>
+<br>
+<br>
+<center><h1>Popular Destinations</h1></center>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="dest">
+    <div id="edinburgh"></div>
+    <div id="japan"></div>
+    <div id="alaska"></div>
+    <div id="newyork"></div>
+</div>
+<div class="blank">
+   <div id="one1"><h3>EDINBURGH</h3>
+<p>Historical places
+.
+Edinburgh Castle, Palace of Holyroodhouse, St Giles' Cathedral</p></div>
+   <div id="two2"><h3>JAPAN</h3>
+<p>Mount Fuji, Asahiyama Zoo, Arashiyama
+    Sunayama beach, Yonaha Beach, Shirahama beach
+</p></div>
+   <div id="three3"><h3>ALASKA</h3>
+<p>Outdoor attractions
+.
+Denali National Park and Preserve, Katmai National Park and Preserve, Mendenha</p></div>
+   <div id="four4"><h3>NEW YORK</h3>
+<p>Museums
+.
+The Metropolitan Museum of Art, The Museum of Modern Art, Solomon R. Guggenheim Museum
+Outdoor attractions
+.
+Central Park, Bronx Zoo, Coney Island</p></div>
+</div>
+<br>
+<br>
+<center><h1>Tour Packages</h1></center>
+<div class="tour">
+    <div id="esp"><h4>AURORA tours 
+        4nights/5days
+    </h4>
+ <h5>$1,199</h5></div>
+    <div id="dis"><h4>EDINBURGH PALACE tours
+        4 nights/5days</h4>
+        <h5>$1,199</h5>
+    </div>
+    <div id="adve"><h4>MOUNT FUJI tours
+        4 nights/5days</h4>
+         <h5>$1,199</h5>
+    </div>
+</div>
+</body>
+</html>
