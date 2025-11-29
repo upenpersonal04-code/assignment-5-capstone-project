@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Michroma&family=Pacifico&family=Shadows+Into+Light&display=swap');
+
+
+
+body{
+    background-image: url(wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+     background-color: rgba(255, 255, 255, 0.6);
+     font-family: "Shadow Into Light", cursive;
+}
+   
+
+.title{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.header{
+    margin-left: 1100px;
+    margin-top: 20px;
+    padding: 1px;
+}
+.h2{
+  margin-left:10px;
+  text-decoration: underline;
+  text-shadow: 0px 5px 50px blue;
+  color: dodgerblue;
+}
+.intro{
+    border: 1px solid black;
+    background-image: url(4k-mountain-vha2l6dphabw0tuj.jpg);
+    box-shadow: 0px 5px 100px purple;
+    background-blend-mode: lighten;
+    border-radius: 20px;
+    height: 500px;
+    width: 1680px;
+}
+/* .intro:hover{
+    animation: animate 1s linear infinite;
+}
+@keyframes animate{
+    100%{
+        filter: hue-rotate(360deg);
+    }
+} */
+#introbox{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    justify-items: center;
+    backdrop-filter: blur(5px);
+    margin-top: 100px;
+    box-shadow: 0px 5px 40px rgb(33, 0, 218);
+    margin-left: 500px;
+   
+}
+/* #introbox:hover{
+    animation: animate 1s linear infinite;
+}
+@keyframes animate{
+    100%{
+        filter: hue-rotate(360deg);
+    } */
+
+button{
+    background-color: black;
+    font-size: larger;
+    display: flex;
+    text-decoration-thickness: 100px;
+    box-shadow: 0px 5px 40px rgb(53, 1, 105);
+    padding: 30px;
+    border: 1px solid black;
+     border-radius: 20px; 
+    justify-content:center ;
+    align-items:center;
+    cursor: pointer;
+}
+button:hover{
+    animation: animate 1s linear infinite;
+}
+@keyframes animate{
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+h1{
+    border: 1px solid black;
+    border-radius: 20px;
+    backdrop-filter: blur(1px);
+    box-shadow: 0px 5px 50px rgb(20, 7, 105);
+
+}
+h4{
+    color: rgb(0, 8, 84);
+    font-size: larger;
+    display: block;
+    border: 1px solid black;
+    /* background-color: rgb(255, 255, 255); */
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0px 0px 60px whitesmoke;  
+    opacity: 0;
+    transition: opacity 1s 1s ;
+}
+h4:hover{
+    animation: show-data 20s forwards;
+    opacity: 1;
+    transition: opacity 2s;
+}
+h5{
+    font-size: larger;
+    padding: 10px;
+    background-color: aliceblue;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    /* display: inline; */
+    box-shadow: 0px 0px 50px goldenrod;
+    opacity: 0;
+    transition: opacity 1s 1s ;
+}
+h5:hover{
+    animation: show-data 20s forwards;
+    opacity: 1;
+    transition: opacity 2s;
+}
+h3{
+    color: blue;
+    font-size: medium;
+    text-shadow: 0px 0px 10px blue;
+}
+p{
+    text-shadow: 0px 0px 10px rgb(95, 0, 147);
+}
